@@ -18,8 +18,8 @@ public class DataSourceUtil implements Serializable {
     public static DataSource dataSource = null;
 
     public static void main(String[] args) {
-        connInit("jdbc:mysql://xxx:13306/sw_private?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false",
-                "root", "sss");
+        connInit("jdbc:mysql://114.115.209.140:13306/sw_private?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false",
+                "root", "izhonghong@2016root123");
         Connection conn = null ;
         PreparedStatement psmt = null;
         ResultSet resultSet = null ;
