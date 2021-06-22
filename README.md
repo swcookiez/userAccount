@@ -1,4 +1,13 @@
 # 项目模块介绍
+## 模块索引
+- [common-util](#common-util)
+- [hbase-coprocessor](#hbase-coprocessor)
+- [huizhou-concentric](#huizhou-concentric)
+- [informationmanager](#informationmanager)
+- [word-split-manager](#word-split-manager)
+- [task-hdfs-picture-readwrite](#task-hdfs-picture-readwrite)
+- [taskissue](#taskissue)
+- [regionalization-taskissue](#regionalization-taskissue)
 ## common-util
 通用工具module，有如下几种工具类<br>
 
@@ -12,8 +21,8 @@
 
 ## hbase-coprocessor
 hbase协处理器<br>
-* 此模块主要是使用hbase自带的协处理器，完成对HBase构建二级索引的任务
-
+* 此模块主要是使用hbase自带的协处理器，完成对HBase构建二级索引的任务<br>
+过程详见：[Hbase协处理器构建二级索引](https://blog.csdn.net/soldiers_A/article/details/115676203?spm=1001.2014.3001.5501)  
 ## huizhou-concentric
 采集惠州用户发文数据，利用发文数据做用户热度榜单分析<br>
 主要业务流程<br>
@@ -49,7 +58,7 @@ elasticsearch自定义分词管理系统<br>
 ## task-hdfs-picture-readwrite
 hdfs快照读写，使用接口的形式提供快照(图片)的存储和读取。
 
-## taskIssue
+## taskissue
 代码介绍
 * 采集任务定时调度，结合信息源管理平台
 * 采集任务发送kafka
