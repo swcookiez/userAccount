@@ -67,3 +67,4 @@ hdfs快照读写，使用接口的形式提供快照(图片)的存储和读取�
 ## regionalization-taskissue
 代码介绍：
 * 使用spark做一些离线分析
+* 账号库区域化实现
